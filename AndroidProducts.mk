@@ -1,0 +1,1 @@
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_m02.mk $(LOCAL_DIR)/omni_m02.mk

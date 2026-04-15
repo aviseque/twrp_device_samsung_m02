@@ -4,3 +4,6 @@ PRODUCT_DEVICE := m02
 PRODUCT_NAME := twrp_m02
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M022G
+
+# Explicitly include TWRP config
+$(call inherit-product, vendor/twrp/config/common.mk)

@@ -99,3 +99,7 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_USES_MTK_HARDWARE := true
 MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
+
+# Alternative flags to force TWRP binary
+TW_BUILD_TWRP := true
+TW_INCLUDE_TWRPAPP := true
